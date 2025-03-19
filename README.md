@@ -12,7 +12,7 @@ This Bash script monitors Cursor's activity and notifies you when AI agent tasks
 - Sends clickable macOS notifications that bring Cursor to the foreground
 - Smart notification system (avoids notifications when Cursor is already in focus)
 - Minimal resource usage
-- Simple setup with Claude instructions
+- Simple setup
 
 ## Requirements
 
