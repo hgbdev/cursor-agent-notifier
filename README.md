@@ -26,19 +26,14 @@ This Bash script monitors Cursor's activity and notifies you when AI agent tasks
    brew install terminal-notifier
    ```
 
-2. Download the script:
+2. Download the script (choose a directory to store the script):
    ```bash
-   curl -o ~/scripts/notify-cursor.sh https://raw.githubusercontent.com/hgbdev/cursor-agent-notifier/main/notify-cursor.sh
+   curl -o ~/notify-cursor.sh https://raw.githubusercontent.com/hgbdev/cursor-agent-notifier/main/notify-cursor.sh
    ```
 
 3. Make the script executable:
    ```bash
-   chmod +x ~/scripts/notify-cursor.sh
-   ```
-
-4. Create the directory if it doesn't exist:
-   ```bash
-   mkdir -p ~/scripts
+   chmod +x ~/notify-cursor.sh
    ```
 
 ## Usage
@@ -48,13 +43,13 @@ This Bash script monitors Cursor's activity and notifies you when AI agent tasks
 Add the new rule globally:
 
 ```
-Execute the Bash script located at /Users/YOUR_USERNAME/scripts/notify-cursor.sh when a task is completed.
+Execute the Bash script located at /Users/YOUR_USERNAME/notify-cursor.sh when a task is completed.
 
 Ensure this script is the last one executed for every task.
 ```
 
 **Important:**
-- Replace `/Users/YOUR_USERNAME/scripts/notify-cursor.sh` with the absolute path to where you saved the script
+- Replace `/Users/YOUR_USERNAME/notify-cursor.sh` with the absolute path to where you saved the script
 - The second line is optional but recommended to ensure notifications for all completed tasks
 
 ### Verification
