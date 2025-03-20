@@ -4,7 +4,11 @@ A macOS utility script that sends notifications when Cursor's AI agent tasks are
 
 ## Overview
 
-![93634](https://github.com/user-attachments/assets/585a72e3-21ec-4b0d-ba38-aed34512ab60)
+
+
+https://github.com/user-attachments/assets/d19dfa49-e6ad-4d6c-86e8-824dac9f9596
+
+
 
 This Bash script monitors Cursor's activity and notifies you when AI agent tasks complete while you're working in other applications. When clicked, the notification brings Cursor back to the foreground, helping you maintain productivity during long-running AI tasks.
 
