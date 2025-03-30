@@ -17,6 +17,15 @@ This Bash script monitors Cursor's activity and notifies you when AI agent tasks
 - Sends clickable macOS notifications that bring Cursor to the foreground
 - Avoids notifications when Cursor is already in focus
 - Simple setup
+- Complements Cursor's built-in sound notification feature with visual notifications
+
+## Why Use This Script?
+
+While Cursor now includes a built-in sound notification feature (as of March 2025), this script provides additional benefits:
+
+- **Visual notifications**: Get macOS system notifications instead of just audio alerts
+- **Application focus**: Click the notification to immediately bring Cursor to the foreground
+- **No sound required**: Works perfectly in quiet environments where sound notifications are disabled
 
 ## Requirements
 
@@ -74,6 +83,16 @@ To verify the script works correctly:
 - **Permission denied**: Check execute permissions on the script (`chmod +x notify-cursor.sh`)
 - **Script not found**: Verify the path in your Cursor instructions matches where you saved the script
 - **Terminal-notifier not found**: Make sure it's installed and in your PATH
+
+## Cursor's Built-in Sound Notification
+
+As of March 2025, Cursor includes a built-in sound notification feature that plays a sound when a chat is finished. You can enable this feature in Cursor by:
+
+1. Open Cursor Settings
+2. Navigate to Features → Chat → Play sound on finish
+3. Toggle the feature on
+
+This script works independently from Cursor's sound notification feature - you can use either or both depending on your preferences.
 
 ## Windows Users
 
